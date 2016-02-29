@@ -5,10 +5,10 @@
     <description>focussed on typography, minimal design and
  quality photography built using the Jekyll platform.
 </description>
-    <link>/blog/</link>
-    <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Feb 2016 11:33:11 +0900</pubDate>
-    <lastBuildDate>Mon, 29 Feb 2016 11:33:11 +0900</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Feb 2016 11:38:03 +0900</pubDate>
+    <lastBuildDate>Mon, 29 Feb 2016 11:38:03 +0900</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati doloribus, culpa, et suscipit praesentium incidunt, libero officiis ipsum fugiat odit aperiam commodi unde dignissimos veritatis accusamus molestias iste magni nobis?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//blogimg/post-assets/fire.jpg&quot; alt=&quot;Fire image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/fire.jpg&quot; alt=&quot;Fire image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Kale chips bespoke church-key American Apparel flannel pickled. Mlkshk High Life Blue Bottle, leggings gastropub four dollar toast post-ironic fap American Apparel VHS. Cliche cold-pressed single-origin coffee mlkshk retro distillery. 3 wolf moon Tumblr selvage semiotics food truck. Intelligentsia Pitchfork meh sriracha chambray, fanny pack lomo irony fap pickled stumptown. Twee +1 artisan, cred ethical gluten-free 90’s four loko Odd Future cronut small batch organic. Seitan hashtag jean shorts art party messenger bag.&lt;/p&gt;
 
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Wed, 11 Feb 2015 17:50:28 +0900</pubDate>
-        <link>/blog/ten-reasons-to-travel-the-world</link>
-        <guid isPermaLink="true">/blog/ten-reasons-to-travel-the-world</guid>
+        <link>/ten-reasons-to-travel-the-world</link>
+        <guid isPermaLink="true">/ten-reasons-to-travel-the-world</guid>
         
         
         <category>travel</category>
@@ -65,8 +65,8 @@
 &lt;p&gt;Grunt&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Feb 2015 17:50:28 +0900</pubDate>
-        <link>/blog/supercharge-your-workflow-with-grunt</link>
-        <guid isPermaLink="true">/blog/supercharge-your-workflow-with-grunt</guid>
+        <link>/supercharge-your-workflow-with-grunt</link>
+        <guid isPermaLink="true">/supercharge-your-workflow-with-grunt</guid>
         
         
         <category>coding</category>
@@ -96,8 +96,8 @@
 &lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Feb 2015 17:50:28 +0900</pubDate>
-        <link>/blog/css-with-superpowers</link>
-        <guid isPermaLink="true">/blog/css-with-superpowers</guid>
+        <link>/css-with-superpowers</link>
+        <guid isPermaLink="true">/css-with-superpowers</guid>
         
         
         <category>coding</category>
@@ -112,7 +112,7 @@
 
 &lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//blogimg/post-assets/view.jpg&quot; alt=&quot;view&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/view.jpg&quot; alt=&quot;view&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
 
@@ -122,8 +122,8 @@
 
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
-        <link>/blog/you-dont-have-to-be-great-to-get-started</link>
-        <guid isPermaLink="true">/blog/you-dont-have-to-be-great-to-get-started</guid>
+        <link>/you-dont-have-to-be-great-to-get-started</link>
+        <guid isPermaLink="true">/you-dont-have-to-be-great-to-get-started</guid>
         
         
         <category>motivation</category>
@@ -166,8 +166,8 @@
 &lt;p&gt;Good luck, and welcome!&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
-        <link>/blog/why-react-js-will-change-the-world</link>
-        <guid isPermaLink="true">/blog/why-react-js-will-change-the-world</guid>
+        <link>/why-react-js-will-change-the-world</link>
+        <guid isPermaLink="true">/why-react-js-will-change-the-world</guid>
         
         
         <category>coding</category>
@@ -182,11 +182,11 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//blogimg/post-assets/walk.jpg&quot; alt=&quot;walk&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/walk.jpg&quot; alt=&quot;walk&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//blogimg/post-assets/water.jpg&quot; alt=&quot;water&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/water.jpg&quot; alt=&quot;water&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//blogimg/post-assets/woods.jpg&quot; alt=&quot;woods&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/woods.jpg&quot; alt=&quot;woods&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
 
@@ -196,8 +196,8 @@
 
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
-        <link>/blog/stop-thinking-and-start-doing</link>
-        <guid isPermaLink="true">/blog/stop-thinking-and-start-doing</guid>
+        <link>/stop-thinking-and-start-doing</link>
+        <guid isPermaLink="true">/stop-thinking-and-start-doing</guid>
         
         
         <category>motivation</category>
@@ -223,8 +223,8 @@
 &lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
-        <link>/blog/its-not-always-that-simple</link>
-        <guid isPermaLink="true">/blog/its-not-always-that-simple</guid>
+        <link>/its-not-always-that-simple</link>
+        <guid isPermaLink="true">/its-not-always-that-simple</guid>
         
         
         <category>motivation</category>
@@ -247,8 +247,8 @@
 
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
-        <link>/blog/fake-it-until-you-make-it</link>
-        <guid isPermaLink="true">/blog/fake-it-until-you-make-it</guid>
+        <link>/fake-it-until-you-make-it</link>
+        <guid isPermaLink="true">/fake-it-until-you-make-it</guid>
         
         
         <category>motivation</category>
@@ -263,7 +263,7 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//blogimg/post-assets/iceland.jpg&quot; alt=&quot;iceland&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/iceland.jpg&quot; alt=&quot;iceland&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
 
@@ -271,8 +271,8 @@
 
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
-        <link>/blog/a-great-story-never-told</link>
-        <guid isPermaLink="true">/blog/a-great-story-never-told</guid>
+        <link>/a-great-story-never-told</link>
+        <guid isPermaLink="true">/a-great-story-never-told</guid>
         
         
         <category>storytime</category>
