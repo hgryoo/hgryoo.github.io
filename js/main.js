@@ -17,7 +17,7 @@ var s,
             // Should include all JS user interactions
             var self = this;
 
-            $('.select-posts,.select-categories').on('mouseover', function () {
+            $('.select-posts,.select-categories').on('click', function () {
                 self.homePostsCatSwitch();
             });
 
