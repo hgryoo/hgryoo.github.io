@@ -4,7 +4,7 @@ layout: with-sidebar
 
 <div class="sub-nav">
     <a href="#" class="select-posts active">Posts</a>
-    <a href="#" class="select-categories">Categories</a>
+    <a href="/categories" class="select-categories">Categories</a>
 </div>
 
 <div class="home-page-posts animated fadeIn ">
@@ -24,7 +24,7 @@ layout: with-sidebar
 
         {% if post.show_avatar == true %}
         <div class=" col-xs-2  no-gutter">
-            <img src="{{ site.baseurl}}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
+            <img src="{{ site.baseurl }}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
         </div>
         {% endif %}
     </article>
@@ -36,7 +36,6 @@ layout: with-sidebar
     <div class="category row">
         <section>
             {% for category in site.categories %}
-
                 <div class="category-preview col-xs-6 col-sm-4 ">
                     <h2>{{ category | first | capitalize }}</h2>
                     <a href='{{ "category/" | append: category.first | prepend: site.baseurl }}'><img src='{{ "img/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
