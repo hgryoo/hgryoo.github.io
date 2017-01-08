@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HGRyoo&#39;s Blog</title>
+    <title>HGRyoo's Blog</title>
     <description>focussed on typography, minimal design and
  quality photography built using the Jekyll platform.
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 05:52:45 +0900</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 05:52:45 +0900</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Sun, 08 Jan 2017 17:20:55 +0900</pubDate>
+    <lastBuildDate>Sun, 08 Jan 2017 17:20:55 +0900</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>You Dont Have To Be Great To Get Started</title>
