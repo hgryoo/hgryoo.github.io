@@ -7,9 +7,54 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Jan 2017 17:20:55 +0900</pubDate>
-    <lastBuildDate>Sun, 08 Jan 2017 17:20:55 +0900</lastBuildDate>
+    <pubDate>Wed, 11 Jan 2017 15:44:36 +0900</pubDate>
+    <lastBuildDate>Wed, 11 Jan 2017 15:44:36 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>테스트</title>
+        <description>&lt;p&gt;블로그 포스트가 어떻게 올라가지는 지 볼 수 있는 테스트&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Jan 2017 00:00:00 +0900</pubDate>
+        <link>/jekyll-test</link>
+        <guid isPermaLink="true">/jekyll-test</guid>
+        
+        
+        <category>motivation</category>
+        
+        <category>leadership</category>
+        
+        <category>journey</category>
+        
+      </item>
+    
+      <item>
+        <title>A Great Story Never Told</title>
+        <description>&lt;p&gt;I’ve never told this to anyone. Sit yourself down and strap yourself in, you will experience some turbulence before you reach a steady altitude.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/post-assets/iceland.jpg&quot; alt=&quot;iceland&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
+        <link>/a-great-story-never-told</link>
+        <guid isPermaLink="true">/a-great-story-never-told</guid>
+        
+        
+        <category>storytime</category>
+        
+        <category>life</category>
+        
+        <category>journey</category>
+        
+      </item>
     
       <item>
         <title>You Dont Have To Be Great To Get Started</title>
@@ -24,7 +69,6 @@
 &lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
-
 </description>
         <pubDate>Tue, 10 Feb 2015 00:00:00 +0900</pubDate>
         <link>/you-dont-have-to-be-great-to-get-started</link>

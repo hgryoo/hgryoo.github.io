@@ -17,14 +17,14 @@ layout: with-sidebar
             {{ post.excerpt | truncatewords: 28 }}
 
             <p class="meta">
-                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
+                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
             </p>
         </div>
 
 
         {% if post.show_avatar == true %}
         <div class=" col-xs-2  no-gutter">
-            <img src="{{ site.baseurl }}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
+            <img src="{{ site.baseurl }}/img/author/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
         </div>
         {% endif %}
     </article>

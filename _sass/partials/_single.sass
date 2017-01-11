@@ -17,6 +17,7 @@
     +clearfix
     +font-size(12)
     margin-bottom: 0
+    text-transform: uppercase
 
     +breakpoint(sm)
         +font-size(16)
@@ -74,6 +75,15 @@ blockquote
     h2
         +font-size(28)
 
+    .similar-post
+
+        a,
+        h3
+            font-family: $sans
+            font-weight: 700
+            color: #333
+            +font-size(20)
+
 .single-content-sidebar
 
     padding: 30px 8%
@@ -102,17 +112,6 @@ blockquote
     hr
         width: 100%
         margin: 15px auto
-
-
-    .similar-post
-
-        a,
-        h3
-            font-family: $sans
-            font-weight: 700
-            color: #333
-            +font-size(20)
-
 
     .similar-cat
         position: relative

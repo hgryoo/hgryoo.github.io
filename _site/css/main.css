@@ -7730,7 +7730,8 @@ ol {
   *zoom: 1;
   font-size: 12px;
   font-size: 1.2rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  text-transform: uppercase; }
   .meta:before, .meta:after {
     content: " ";
     display: table; }
@@ -7804,6 +7805,15 @@ blockquote {
   .single-content-sidebar h2 {
     font-size: 28px;
     font-size: 2.8rem; }
+  .single-content .similar-post a,
+  .single-content .similar-post h3,
+  .single-content-sidebar .similar-post a,
+  .single-content-sidebar .similar-post h3 {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 20px;
+    font-size: 2rem; }
 
 .single-content-sidebar {
   padding: 30px 8%; }
@@ -7835,13 +7845,6 @@ blockquote {
   .single-content-sidebar-area hr {
     width: 100%;
     margin: 15px auto; }
-  .single-content-sidebar-area .similar-post a,
-  .single-content-sidebar-area .similar-post h3 {
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    color: #333;
-    font-size: 20px;
-    font-size: 2rem; }
   .single-content-sidebar-area .similar-cat {
     position: relative;
     margin-bottom: 10px; }
@@ -7965,6 +7968,14 @@ footer .read-another-container {
       font-size: 1.6rem;
       line-height: 22px;
       line-height: 2.2rem; } }
+
+.similar-post a,
+.similar-post h3 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #333;
+  font-size: 20px;
+  font-size: 2rem; }
 
 .category-sidebar .site-info {
   padding-top: 160px; }

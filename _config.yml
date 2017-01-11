@@ -5,13 +5,13 @@ description: > # Writer Theme is a responsive template
  focussed on typography, minimal design and
   quality photography built using the Jekyll platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-enable_retina: false
+# url: "" # the base hostname & protocol for your site
+enable_retina: true
 permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-home']
-  # Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  # Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
+  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   # About : ['About', '/about', 'fa-anchor']
   Author : ['Author', '/author/hgryoo', 'fa-user']
   Contact : ['Contact', '/contact', 'fa-plane']
@@ -23,3 +23,6 @@ footer_links:
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-archives
