@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-sidebar
 date: 2017-01-08
 categories: motivation leadership journey
 author_name : Hyung-Gyu Ryoo

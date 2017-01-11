@@ -40,15 +40,7 @@ layout: default
 
             </div>
 
-            <h2 class="favorites">Similar Posts</h2>
-
-            {% for post in site.related_posts %}
-                {% if forloop.index <= 5 %}
-                <div class="similar-post">
-                    <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
-                </div>
-                {% endif %}
-            {% endfor %}
+            {% include favorite.html %}
         </div>
 
     </div> <!--/row -->
