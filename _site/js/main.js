@@ -17,8 +17,40 @@ var s,
             // Should include all JS user interactions
             var self = this;
 
-            $('.select-posts,.select-categories').on('click', function () {
-                self.homePostsCatSwitch();
+            $('.select-posts').on('click', function () {
+              $('.select-categories').removeClass("active");
+              $('.select-archives').removeClass("active");
+              $('.select-posts').addClass("active");
+
+              $('.home-page-posts').removeClass("hide");
+              $('.home-page-categories').addClass("hide");
+              $('.home-page-archives').addClass("hide");
+
+              $('.home-footer').removeClass("hide");
+            });
+
+            $('.select-categories').on('click', function () {
+              $('.select-posts').removeClass("active");
+              $('.select-archives').removeClass("active");
+              $('.select-categories').addClass("active");
+
+              $('.home-page-posts').addClass("hide");
+              $('.home-page-categories').removeClass("hide");
+              $('.home-page-archives').addClass("hide");
+
+              $('.home-footer').addClass("hide");
+            });
+
+            $('.select-archives').on('click', function () {
+              $('.select-posts').removeClass("active");
+              $('.select-categories').removeClass("active");
+              $('.select-archives').addClass("active");
+
+              $('.home-page-posts').addClass("hide");
+              $('.home-page-categories').addClass("hide");
+              $('.home-page-archives').removeClass("hide");
+
+              $('.home-footer').addClass("hide");
             });
 
             $('.social-icon').on('click', function(){

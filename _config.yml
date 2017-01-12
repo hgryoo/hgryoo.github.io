@@ -1,25 +1,22 @@
 # Site settings
 title: HGRyoo's Blog
 email: hyunggyu.ryoo@gmail.com
-description: > # Writer Theme is a responsive template
- focussed on typography, minimal design and
-  quality photography built using the Jekyll platform.
+description: > # Hyung-Gyu Ryoo's Blog. GIS Developer, Researcher, Ph.D Student.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site
 enable_retina: true
 permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-home']
-  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  # Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
+  # Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   # About : ['About', '/about', 'fa-anchor']
-  Author : ['Author', '/author/hgryoo', 'fa-user']
+  Author : ['Author', '/author', 'fa-user']
   Contact : ['Contact', '/contact', 'fa-plane']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
+single_footer: '<p>Hyung-Gyu Ryoo &copy; 2016-2017 Powered by Writer<a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
-    Author: ['Author', '/author/hgryoo']
-
+    Author: ['Author', '/author']
 
 # Build settings
 markdown: kramdown

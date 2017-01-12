@@ -1,4 +1,4 @@
-<form action="{{ page.form_action }}">
+<form action='{{ page.form_action }}' method="POST">
     <div class="form-group">
         <label for="name">Name</label>
         <input type="text" placeholder="" class="form-control" name="name">
@@ -10,11 +10,6 @@
     <div class="form-group">
         <label for="affiliation">Affiliation</label>
         <input type="text" placeholder="" class="form-control" name="affiliation">
-    </div>
-
-    <div class="form-group">
-        <label for="number">Phone Number</label>
-        <input type="tel" placeholder="" class="form-control" name="number">
     </div>
 
     <div class="form-group">
