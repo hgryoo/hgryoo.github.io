@@ -3,24 +3,11 @@
   <channel>
     <title>HGRyoo's Blog</title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Jan 2017 16:53:57 +0900</pubDate>
-    <lastBuildDate>Mon, 16 Jan 2017 16:53:57 +0900</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Example Test for GIS</title>
-        <description>&lt;p&gt;블로그 포스트가 어떻게 올라가지는 지 볼 수 있는 테스트&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Jan 2017 00:00:00 +0900</pubDate>
-        <link>/gis-introduction</link>
-        <guid isPermaLink="true">/gis-introduction</guid>
-        
-        
-        <category>gis</category>
-        
-      </item>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 30 Apr 2017 18:26:38 +0900</pubDate>
+    <lastBuildDate>Sun, 30 Apr 2017 18:26:38 +0900</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
   </channel>
 </rss>

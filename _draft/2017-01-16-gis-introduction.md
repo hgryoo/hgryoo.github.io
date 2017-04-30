@@ -12,6 +12,7 @@ show_related_posts: true
 square_related: feature-hand
 social-message: Great post over at Writer Theme - You dont have to be great to get started
 title: Example Test for GIS
+publication: false
 ---
 
 블로그 포스트가 어떻게 올라가지는 지 볼 수 있는 테스트
