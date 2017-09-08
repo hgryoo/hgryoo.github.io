@@ -33,6 +33,4 @@ task :publish => [:generate] do
     system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
     system "git push origin master --force"
 
-    Dir.chdir pwd
-  end
-end
+    Dir.chdir pw
