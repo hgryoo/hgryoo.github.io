@@ -13,6 +13,8 @@ nav_list:
   # About : ['About', '/about', 'fa-anchor']
   Author : ['Author', '/author', 'fa-user']
   Contact : ['Contact', '/contact', 'fa-plane']
+  Publication : ['Publication', '/publication', 'fa-file-text-o']
+
 single_footer: '<p>Hyung-Gyu Ryoo &copy; 2016-2017 Powered by Writer<a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
@@ -21,5 +23,25 @@ footer_links:
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-archives
+# Scholar settings
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_publications
+  bibliography: bibliography.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+gems : ['jekyll/scholar']

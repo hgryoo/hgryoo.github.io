@@ -10,10 +10,11 @@ title: Hyung-Gyu Ryoo
 
 # Hyung-Gyu Ryoo
 
-- Ph.D Student in Pusan National University, South Korea
+- Ph.D. Student in Pusan National University, South Korea
 - Open Source GIS Developer
 - Email : [hgryoo@pnu.edu](mailto:hgryoo@pnu.edu)
 - Github : https://github.com/hgryoo
+- Twitter : @hg_ryoo
 
 ## Research Interests
 - Spatial and Spatial-Temporal Databases
