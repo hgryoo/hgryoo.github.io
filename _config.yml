@@ -19,6 +19,7 @@ single_footer: '<p>Hyung-Gyu Ryoo &copy; 2016-2017 Powered by Writer<a href="/">
 footer_links:
     About: ['About', '/about']
     Author: ['Author', '/author']
+    Contact: ['Contact', '/contact']
 
 # Build settings
 markdown: kramdown

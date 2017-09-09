@@ -6,7 +6,7 @@ author_name : Hyung-Gyu Ryoo
 author_url : /author
 author_avatar: hgryoo
 show_avatar : true
-read_time : 16
+read_time : 5
 feature_image: feature-hand
 show_related_posts: true
 square_related: feature-hand
