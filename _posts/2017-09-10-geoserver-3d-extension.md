@@ -10,8 +10,8 @@ read_time : 16
 feature_image: feature-hand
 show_related_posts: true
 square_related: feature-hand
-social-message: Great post over at Writer Theme - You dont have to be great to get started
 title: FOSS4G 2017 - Development of an extension of GeoServer Extension for handling 3d spatial data
+comments: true
 publication: false
 ---
 

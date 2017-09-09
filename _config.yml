@@ -23,6 +23,10 @@ footer_links:
 # Build settings
 markdown: kramdown
 
+# Comment settings
+disqus:
+  id: hgryoo
+
 # Scholar settings
 scholar:
   style: apa

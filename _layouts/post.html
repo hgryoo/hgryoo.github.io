@@ -25,7 +25,9 @@ layout: default
             {{ content }}
 
             <!-- comments -->
-            {% include comments.html %}
+            {% if page.comments %}
+              {% include comments.html %}
+            {% endif %}
 
             {% include favorite.html %}
         </div><!-- main-content/col -->
