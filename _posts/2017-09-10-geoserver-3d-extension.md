@@ -8,11 +8,11 @@ author_avatar: hgryoo
 show_avatar : true
 read_time : 5
 feature_image: feature-hand
-show_related_posts: true
 square_related: feature-hand
 title: FOSS4G 2017 - Development of an extension of GeoServer Extension for handling 3d spatial data
 comments: true
 publication: false
+languages: KO
 ---
 
 이 자료는 국제 오픈소스 GIS 재단(OSGeo)에서 주최하는 FOSS4G (Free & Open Source Software for GeoSpatial) 컨퍼런스에서 발표한 것이다. 올해 2017년 FOSS4G 컨퍼런스는 보스턴에서 열렸다.

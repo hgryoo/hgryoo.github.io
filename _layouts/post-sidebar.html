@@ -33,9 +33,17 @@ layout: default
                     <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize}}</a> in <a href='{{ "category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a>
                 </div>
 
+                {% if page.read_time %}
                 <div class="sidebar-readtime">
                     <i class="fa fa-bookmark"></i> {{ page.read_time }} minute read
                 </div>
+                {% endif %}
+
+                {% if page.languages %}
+                <div class="sidebar-languages">
+                  <i class="link-spacer"></i> <i class="fa fa-globe"></i>{{ page.languages | capitalize }}
+                </div>
+                {% endif %}
 
             </div>
 
