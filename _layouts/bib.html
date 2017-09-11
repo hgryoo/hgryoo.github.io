@@ -1,6 +1,12 @@
 ---
 layout: with-sidebar
 ---
+
+{% capture cYear %}{{ entry.year }}{% endcapture %}
+{% if cYear != year %}
+  <h2>{{ cYear }}</h2>
+    {% capture year %}{{cYear}}{% endcapture %}
+{% endif %}
 <h2>{{ entry.title | capitalize }}</h2>
 <h3>{{ entry.author }} </h3>
 <p>{{ entry.booktitle }} </p>
