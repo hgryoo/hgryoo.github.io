@@ -1,10 +1,24 @@
 ---
 layout: with-sidebar
 ---
-{{ reference }}
+
+{% capture cYear %}{{ entry.year }}{% endcapture %}
+{% if cYear != year %}
+  <h2>{{ cYear }}</h2>
+    {% capture year %}{{cYear}}{% endcapture %}
+{% endif %}
+<h2>{{ entry.title | capitalize }}</h2>
+<h3>{{ entry.author }} </h3>
+<p>{{ entry.booktitle }} </p>
 
 {% if entry.abstract %}
 <p>{{ entry.abstract }}</p>
 {% endif %}
 
-<pre>{{ entry.bibtex }}</pre>
+<button class="btn btn-default"><a href="#">PDF</a></button>
+<button class="btn btn-default"><a href="#">SLIDES</a></button>
+<button class="btn btn-default"><a href="#">CODE</a></button>
+
+{% if entry.bibtex %}
+  <button class="btn btn-default"><a href="#">BIBTEX</a></button>
+{% endif %}

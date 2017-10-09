@@ -47,7 +47,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    kramdown (1.14.0)
+    kramdown (1.15.0)
     latex-decode (0.2.2)
       unicode (~> 0.4)
     liquid (4.0.0)
