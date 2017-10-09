@@ -46,4 +46,6 @@ scholar:
 
   query: "@*"
 
-plugins : ['jekyll/scholar', 'jekyll-archives']
+plugins :
+  -jekyll/scholar
+  -jekyll-archives
