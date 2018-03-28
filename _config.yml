@@ -13,12 +13,12 @@ nav_list:
   # About : ['About', '/about', 'fa-anchor']
   Author : ['Author', '/author', 'fa-user']
   Contact : ['Contact', '/contact', 'fa-plane']
-  Project : ['Project', '/#', 'fa-code']
+  Project : ['Projects', '/portfolio', 'fa-code']
   Publication : ['Publication', '/publication', 'fa-file-text-o']
 
 single_footer: '<p>Hyung-Gyu Ryoo &copy; 2016-2017 Powered by Writer<a href="/">latest posts</a></p>'
 footer_links:
-    About: ['About', '/about']
+    # About: ['About', '/about']
     Author: ['Author', '/author']
     Contact: ['Contact', '/contact']
 
