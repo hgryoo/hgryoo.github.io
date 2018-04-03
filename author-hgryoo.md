@@ -24,5 +24,12 @@ title: Hyung-Gyu Ryoo
 - Soccer Analysis
 
 ## Open Source Projects
-- 3D Extension for [GeoTools](https://github.com/STEMLab/geotools-3d-extension) / [GeoServer](https://github.com/STEMLab/geoserver-3d-extension)
-- [Synthetic Moving Objects Generator](https://github.com/STEMLab/SIMOGen)
+- 3D Extension module for [GeoTools](http://geotools.org/) / [GeoServer](http://geoserver.org/)
+  - [GeoTools 3D extension](https://github.com/STEMLab/geotools-3d-extension)
+  - [GeoServer 3D extension](https://github.com/STEMLab/geoserver-3d-extension)
+- [SFCGAL4J](https://github.com/hgryoo/SFCGAL4J) - Java wrapper for SFCGAL on Maven environment
+- [SIMOGen](https://github.com/STEMLab/SIMOGen) - Synthetic Moving Objects Generator in indoor spaces
+- OGC [IndoorGML](http://www.opengeospatial.org/standards/indoorgml) Ecosystem
+  - [InViewer](https://github.com/STEMLab/InViewer.git) - A Three.js-based viewer for visualizing OGC IndoorGML data
+  - [InFactory](https://github.com/STEMLab/InFactory.git) - A restful server and library to create and manage OGC IndoorGML
+  - [InEditor](https://github.com/STEMLab/InEditor.git) - A web-based editor for drawing and creating OGC IndoorGML data
