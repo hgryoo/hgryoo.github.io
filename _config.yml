@@ -46,7 +46,7 @@ scholar:
 
   query: "@*"
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
