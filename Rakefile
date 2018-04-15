@@ -28,7 +28,7 @@ task :publish => [:build] do
     system "mv #{tmp}/* ."
     message = "Site updated at #{Time.now.utc}"
     system "git add ."
-    system "git commit -m #{message}"
+    system "git commit -am \"#{message}\""
     system "git push origin master --force"
     system "git checkout master"
     system "echo yolo"
