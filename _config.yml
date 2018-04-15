@@ -48,11 +48,11 @@ scholar:
 
 exclude: ["Gemfile*", "Rakefile"]
 
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll/scholar
   - jekyll-archives
-  - jekyll/youtube
+  - jekyll-youtube
   - jekyll-toc
