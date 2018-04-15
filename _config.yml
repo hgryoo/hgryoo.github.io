@@ -52,3 +52,5 @@ plugins:
   - jekyll-feed
   - jekyll/scholar
   - jekyll-archives
+  - jekyll-youtube
+  - jekyll-toc

@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem "rake"
 
 group :jekyll_plugins do
-  gem 'octopress-video-tag'
   gem "jekyll-sitemap"
   gem "jekyll-gist"
   gem "jekyll-feed"
