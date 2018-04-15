@@ -10,33 +10,34 @@ layout: with-sidebar
 
 <div class="home-page-posts animated fadeIn ">
     {% for post in site.posts %}
+      {% if post.hidden != true %}
+        <article class="post">
+            <div class="post-preview col-xs-10 no-gutter">
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-    <article class="post">
-        <div class="post-preview col-xs-10 no-gutter">
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                {{ post.excerpt | truncatewords: 28 }}
 
-            {{ post.excerpt | truncatewords: 28 }}
+                <p class="meta">
+                    <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
 
-            <p class="meta">
-                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>
+                    {% if post.read_time %}
+                      <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
+                    {% endif %}
 
-                {% if post.read_time %}
-                  <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
-                {% endif %}
-
-                {% if post.languages %}
-                  <i class="link-spacer"></i> <i class="fa fa-globe"></i>{{ post.languages | capitalize }}
-                {% endif %}
-            </p>
-        </div>
+                    {% if post.languages %}
+                      <i class="link-spacer"></i> <i class="fa fa-globe"></i>{{ post.languages | capitalize }}
+                    {% endif %}
+                </p>
+            </div>
 
 
-        {% if post.show_avatar == true %}
-        <div class=" col-xs-2  no-gutter">
-            <img src="{{ site.baseurl }}/img/author/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
-        </div>
-        {% endif %}
-    </article>
+            {% if post.show_avatar == true %}
+            <div class=" col-xs-2  no-gutter">
+                <img src="{{ site.baseurl }}/img/author/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
+            </div>
+            {% endif %}
+        </article>
+      {% endif %}
     {% endfor %}
 
 </div><!-- Home page posts -->
@@ -57,6 +58,7 @@ layout: with-sidebar
 <div class="home-page-archives hide animated fadeIn ">
     <div class="archive row">
       {% for post in site.posts %}
+      {% if post.hidden != true %}
         {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
         {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
           {% if month != nmonth %}
@@ -74,6 +76,7 @@ layout: with-sidebar
           {% endfor %}
           )
         </li>
+      {% endif %}
       {% endfor %}
     </div>
 </div>

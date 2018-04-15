@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-scholar"
   gem "jekyll-youtube"
+  gem 'jekyll-toc'
 end
