@@ -14,8 +14,13 @@ task :generate do
   })).process
 end
 
+task :build do
+  puts 'Building site...'.bold
+  system "bundle exec jekyll build"
+end
+
 desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
+task :publish => [:build] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
     system "git checkout -B master"
