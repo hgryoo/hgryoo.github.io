@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-feed"
   gem "jekyll-archives"
+  gem "unicode"
   gem "jekyll-scholar"
   gem "jekyll-youtube"
   gem 'jekyll-toc'
