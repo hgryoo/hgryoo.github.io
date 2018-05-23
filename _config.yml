@@ -48,4 +48,5 @@ scholar:
 
 exclude: ["Gemfile*", "Rakefile"]
 
-plugins: [jekyll-sitemap, jekyll-gist, jekyll-feed, jekyll/scholar, jekyll-archives, jekyll-youtube, jekyll-toc]
+plugins_dir: ./_scripts
+gems: [jekyll-sitemap, jekyll-gist, jekyll-feed, jekyll/scholar, jekyll-archives, jekyll-youtube, jekyll-toc]
