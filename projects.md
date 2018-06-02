@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 포트폴리오 목차
-permalink: /portfolio/
+permalink: /projects/
 toc: true
 feature_image: feature-book
 ---
