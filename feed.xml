@@ -1,30 +1,63 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>HGRyoo&#39;s Blog</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 02 Jun 2018 19:25:41 +0900</pubDate>
+    <lastBuildDate>Sat, 02 Jun 2018 19:25:41 +0900</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>OGC IndoorGML Ecosystem</title>
+        <description>
+</description>
+        <pubDate>Sun, 08 Apr 2018 00:00:00 +0900</pubDate>
+        <link>/portfolio/indoorgml-ecosystem</link>
+        <guid isPermaLink="true">/portfolio/indoorgml-ecosystem</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>실내공간 이동객체 궤적 생성기</title>
+        <description>
+</description>
+        <pubDate>Sun, 08 Apr 2018 00:00:00 +0900</pubDate>
+        <link>/portfolio/indoor-mv-generator</link>
+        <guid isPermaLink="true">/portfolio/indoor-mv-generator</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>GeoTools/GeoServer의 3차원 확장</title>
+        <description>
+</description>
+        <pubDate>Sun, 08 Apr 2018 00:00:00 +0900</pubDate>
+        <link>/portfolio/geoserver-3d</link>
+        <guid isPermaLink="true">/portfolio/geoserver-3d</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>FOSS4G 2017 - Development of an extension of GeoServer Extension for handling 3d spatial data</title>
+        <description>&lt;p&gt;이 자료는 국제 오픈소스 GIS 재단(OSGeo)에서 주최하는 FOSS4G (Free &amp;amp; Open Source Software for GeoSpatial) 컨퍼런스에서 발표한 것이다. 올해 2017년 FOSS4G 컨퍼런스는 보스턴에서 열렸다.&lt;/p&gt;
+
+&lt;p&gt;대표적인 오픈소스 공간 서버인 GeoServer가 3차원 데이터를 다룰 수 있도록 Web Feature Service와 GeoServer가 사용하는 주요한 라이브러리인 GeoTools에서 3차원 기하를 사용할 수 있도록 수정/확장 구현한 내용을 발표하였다.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.slideshare.net/hyunggyuryoo/slideshelf&quot; width=&quot;760px&quot; height=&quot;570px&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 10 Sep 2017 00:00:00 +0900</pubDate>
+        <link>/geoserver-3d-extension</link>
+        <guid isPermaLink="true">/geoserver-3d-extension</guid>
+        
+        
+        <category>gis</category>
+        
+      </item>
+    
   </channel>
 </rss>
