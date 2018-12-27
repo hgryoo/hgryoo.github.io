@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Page Info -->
+    <title>{{ page.title }} | {{site.name}}</title>
+    {% if site.description %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Site Favicon -->
+    <link rel="shortcut icon" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Font Embed Code -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet" />
+
+    <!-- CSS Styles -->
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+</head>
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+
+<body class="{{ layout }}">
+    <div id="page" class="site">
+
+        {% if page.url == "/" %}
+
+        <div class="hero-wrap">
+            {% if site.cover_image %}
+            <div class="hero-wrap-bg" style="background-image: url({{ site.baseurl }}/assets/images/{{ site.cover_image }})"></div>
+            {% endif %}
+            {% include header.html %}
+            <section class="hero outer fadeInDown delay_075s">
+                <div class="inner">
+                    {% include author.html %}
+                </div><!-- .inner -->
+            </section><!-- .hero -->
+        </div><!-- .hero-wrap -->
+
+        {% else %}
+        {% include header.html %}
+        {% endif %}
+
+        {{ content }}
+
+        {% if paginator.total_posts > site.paginate %}
+        {% if page.class == 'tag-template' %}
+        {% include tag-pagination.html %}
+        {% endif %}
+        {% endif %}
+
+        {% if site.mailchimp_url and page.class == 'tag-template' %}
+        {% include newsletter-box.html %}
+        {% endif %}
+
+        <footer id="colophon" class="site-footer outer">
+            <div class="site-footer-inside">
+                {% include social-links.html %}
+                <p class="site-info">
+                    <a href="#">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} . Horace theme by
+                    <a target="_blank" href="https://justgoodthemes.com/">JustGoodThemes</a>. <br />
+                    Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>.
+                </p>
+                <p class="back-to-top">
+                    <a id="top-button" class="top-button" href="#page">
+                        <span class="icon-arrow-up" aria-hidden="true"></span>
+                        <span class="screen-reader-text">Back to top</span>
+                    </a>
+                </p>
+            </div><!-- .site-footer-inside -->
+        </footer><!-- .site-footer -->
+    </div><!-- .site -->
+    <div id="site-overlay" class="site-overlay"></div>
+    {% include sidebar.html %}
+    {% include analytics.html %}
+    <!-- Javascript Assets -->
+    <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
+
+</body>
+
+</html>
