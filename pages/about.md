@@ -4,12 +4,24 @@ title: About
 featured_image: /assets/images/pages/about.jpg
 ---
 
-Daniel Bennett is a senior developer from Vilnius, Lithuania. After graduating from The College with a degree in **Computer Science**, he worked for three small web shops where he honed his development skills and love for JavaScript.
+# Hyung-Gyu Simon Ryoo
 
-His work has been recognized by Communication Arts, IBM, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. **Net** magazine named him a person to watch in 2018.
+I'm a research engineer working in CUBRID which is an Open-Source DBMS company. I graduated from the Pusan National University with a B.S.E in Computer Science and Engineering. and studied as Master/Ph. D integrated course in the same university majoring about 3D GIS, Indoor spatial data modelling/analysis.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+## Development Interests
 
-As a hobby, Daniel authors the most influential JavaScript blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+- 3D Spatial Software Stack (Visualization, Analysis, Data Management)
+- Spatial and Spatial-Temporal Databases
+- DBMS
 
-*Thank You for reading!*
+## Open Source Projects
+
+- 3D Extension module for [GeoTools](http://geotools.org/) / [GeoServer](http://geoserver.org/)
+  - [GeoTools 3D extension](https://github.com/STEMLab/geotools-3d-extension)
+  - [GeoServer 3D extension](https://github.com/STEMLab/geoserver-3d-extension)
+- [SFCGAL4J](https://github.com/hgryoo/SFCGAL4J) - Java wrapper for SFCGAL on Maven environment
+- [SIMOGen](https://github.com/STEMLab/SIMOGen) - Synthetic Moving Objects Generator in indoor spaces
+- OGC [IndoorGML](http://www.opengeospatial.org/standards/indoorgml) Ecosystem
+  - [InViewer](https://github.com/STEMLab/InViewer.git) - A Three.js-based viewer for visualizing OGC IndoorGML data
+  - [InFactory](https://github.com/STEMLab/InFactory.git) - A restful server and library to create and manage OGC IndoorGML
+  - [InEditor](https://github.com/STEMLab/InEditor.git) - A web-based editor for drawing and creating OGC IndoorGML data
