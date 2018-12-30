@@ -15,8 +15,8 @@ ga_analytics: 'UA-74595375-1'
 # Author
 author:
   name: 'Hyung-Gyu Ryoo'
-  image: 'author/hgryoo.jpg'
-  greetings: 'Hi there!'
+  image: 'logo.png'
+  greetings: '관심 있는 분야 그냥 끄적이는 곳'
   description: "Open-source software development interested in DBMS, 3D GIS and Geo-spatial intelligence"
   bio: 'Working at CUBRID as Research Development Engineer.'
 
