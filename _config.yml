@@ -17,7 +17,7 @@ author:
   name: 'Hyung-Gyu Ryoo'
   image: 'logo.png'
   greetings: '관심 있는 분야 그냥 끄적이는 곳'
-  description: "Open-source software development interested in DBMS, 3D GIS and Geo-spatial intelligence"
+  description: "DBMS, 3D GIS 공간 지능에 관심이 있는 오픈소스 개발자입니다.<br>Open-source software development interested in DBMS, 3D GIS and Geo-spatial intelligence"
   bio: 'Working at CUBRID as Research Development Engineer.'
 
 # Contact form setings

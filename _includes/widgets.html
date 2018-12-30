@@ -12,7 +12,11 @@
         <li>
             <div class="post-header">
                 <div class="post-meta">
+                    {% if post.nodate %}
+                    <time class="published">TIME UNASSIGNED</time>
+                    {% elsif post.date %}
                     <time class="published" datetime="??">{{ post.date | date: "%B %-d, %Y" }}</time>
+                    {% endif %}
                 </div>
                 <div class="post-title">
                     <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>

@@ -9,8 +9,12 @@ post_class: post-template
         <article class="post-full inner">
             <header class="post-header">
                 <div class="post-meta">
+                    {% if page.nodate %}
+                    <time class="post-date">TIME UNASSIGNED</time>
+                    {% elsif page.date %}
                     <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d,
                         %Y" }}</time>
+                    {% endif %}
                 </div><!-- .post-meta -->
                 <h1 class="posttitle">{{ page.title }}</h1>
             </header><!-- .post-header -->
