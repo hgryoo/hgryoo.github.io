@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FOSS4G 2017 - Development of an extension of GeoServer Extension for handling 3d spatial data"
+title:  "[Slide] FOSS4G 2017 - Development of an extension of GeoServer Extension for handling 3d spatial data"
 tags: [ FOSS4G, GIS, Presentation, GeoServer, 3D ]
 ---
 

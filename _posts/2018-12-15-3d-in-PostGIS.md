@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PostGIS SFCGAL로 3D 데이터 다뤄보기"
+title:  "[Slide] PostGIS SFCGAL로 3D 데이터 다뤄보기"
 tags: [ GIS, Presentation, SFCGAL, PostGIS, 3D ]
 ---
 
