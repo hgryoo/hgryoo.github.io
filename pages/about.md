@@ -1,10 +1,9 @@
 ---
 layout: page
 title: About
-featured_image: /assets/images/pages/about.jpg
 ---
 
-# Hyung-Gyu Simon Ryoo
+## Hyung-Gyu Simon Ryoo
 
 I'm a research engineer working in CUBRID which is an Open-Source DBMS company. I graduated from the Pusan National University with a B.S.E in Computer Science and Engineering. and studied as Master/Ph. D integrated course in the same university majoring about 3D GIS, Indoor spatial data modelling/analysis.
 
