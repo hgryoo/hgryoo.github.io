@@ -34,11 +34,11 @@ linkedin: 'hgryoo9264'
 # Navigation
 navigation:
   - text: About
-    url: /pages/about/
+    url: /pages/about
   - text: Project
-    url: /pages/project/
+    url: /pages/project
   - text: Contact Me
-    url: /pages/contact/
+    url: /pages/contact
 
 # Required Plugins
 plugins_dir:
