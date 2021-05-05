@@ -5,7 +5,7 @@ title: About
 
 ## Hyung-Gyu Ryoo
 
-I'm a research engineer working in CUBRID which is an Open-Source DBMS company. I graduated from the Pusan National University with a B.S.E in Computer Science and Engineering. and studied as Master/Ph. D integrated course in the same university majoring about 3D GIS, Indoor spatial data modelling/analysis.
+I'm a research engineer working for CUBRID which is an Open-Source DBMS. I graduated from the Pusan National University with a B.S.E in Computer Science and Engineering. and studied as Master/Ph. D integrated course in the same university majoring about 3D GIS, Indoor spatial data modelling/analysis.
 
 ## Development Interests
 
