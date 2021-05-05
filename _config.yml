@@ -5,7 +5,7 @@ meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
 #logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon'
 baseurl:
-production_url: https://hgryoo.github.io/
+production_url: https://hgryoo.dev/
 disqus: 'hgryoo'
 mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
 cover_image: bc_1.jpg
