@@ -1,0 +1,36 @@
+name: Jekyll Deploy
+
+on:
+  push:
+    branches: [ source ]
+
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+    - name: Bundler Cache
+      uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+    - name: bundle install
+      run: bundle install
+    - name: Production build
+      run: JEKYLL_ENV=production bundle exec jekyll build --destination _site
+    - name: Github Pages
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: master
+        publish_dir: _site/
+        cname: www.hgryoo.dev
