@@ -4,15 +4,15 @@ branches:
   only:
   - source
 script:
-  - JEKYLL_ENV=production bundle exec jekyll build --destination site
+  - JEKYLL_ENV=production bundle exec jekyll build --destination _site
 deploy:
   provider: pages
-  local-dir: ./site
+  strategy: git
+  cleanup: false
+  local-dir: _site/
   target-branch: master
-  email: hyunggyu.ryoo@gmail.com
-  name: Deployment Bot
   skip-cleanup: false
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
-    branch: release
+    branch: source
