@@ -25,6 +25,9 @@ jobs:
       run: bundle install
     - name: Production build
       run: JEKYLL_ENV=production bundle exec jekyll build --destination _site
+    - name: Copy CNAME
+      run: |
+          cp CNAME _site/CNAME
     - name: Github Pages
       if: success()
       uses: peaceiris/actions-gh-pages@v3
