@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MULTIDIMENSIONAL</title>
+    <description>Development, Life Style, </description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 May 2021 00:47:46 +0000</pubDate>
+    <lastBuildDate>Mon, 17 May 2021 00:47:46 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>[Slide] PostGIS SFCGAL로 3D 데이터 다뤄보기</title>
+        <description>&lt;h2 id=&quot;korean&quot;&gt;Korean&lt;/h2&gt;
+&lt;p&gt;PostGIS SFCGAL의 함수를 이용해 간단한 3D 데이터를 만들어보고 QGIS 3.4 버전에서 가시화 해보는 내용을 담고 있습니다. 그 외에 여러가지 3D 공간 함수들을 소개합니다. 또한 3D 데이터를 PostGIS를 기반으로 서비스할 때 현재의 한계점과 고려해야할 점들에 대한 논의를 담고 있습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;english&quot;&gt;English&lt;/h2&gt;
+&lt;p&gt;Some PostGIS functions about 3D are introduced. By using the “ST_Extrude” function supported in PostGIS, 3D extruded building data are created from New York building footprints and visualized by 3D map view in QGIS. Other useful functions also introduced such as spatial boolean operations and 3D Intersection, Union and Difference by SFCGAL backend. Finally current limitations (in my view) to deal with 3D data and considerations discussed.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vStDqbTmyUNcDA20VDS5Y1PdfhQuJgWKm1iacbc4ij_js_CAFUFoT_XbOfJfyZldvI8N44PlI3Xa8PV/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+        <link>/3d-in-PostGIS</link>
+        <guid isPermaLink="true">/3d-in-PostGIS</guid>
+        
+        <category>GIS</category>
+        
+        <category>Presentation</category>
+        
+        <category>SFCGAL</category>
+        
+        <category>PostGIS</category>
+        
+        <category>3D</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>[Slide] FOSS4G 2017 - Development of an extension of GeoServer Extension for handling 3d spatial data</title>
+        <description>&lt;p&gt;이 자료는 국제 오픈소스 GIS 재단(OSGeo)에서 주최하는 FOSS4G (Free &amp;amp; Open Source Software for GeoSpatial) 컨퍼런스에서 발표한 것이다. 올해 2017년 FOSS4G 컨퍼런스는 보스턴에서 열렸다.&lt;/p&gt;
+
+&lt;p&gt;대표적인 오픈소스 공간 서버인 GeoServer가 3차원 데이터를 다룰 수 있도록 Web Feature Service와 GeoServer가 사용하는 주요한 라이브러리인 GeoTools에서 3차원 기하를 사용할 수 있도록 수정/확장 구현한 내용을 발표하였다.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.slideshare.net/hyunggyuryoo/slideshelf&quot; width=&quot;760px&quot; height=&quot;570px&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:none;&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+        <link>/geoserver-3d-extension</link>
+        <guid isPermaLink="true">/geoserver-3d-extension</guid>
+        
+        <category>FOSS4G</category>
+        
+        <category>GIS</category>
+        
+        <category>Presentation</category>
+        
+        <category>GeoServer</category>
+        
+        <category>3D</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
