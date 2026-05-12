@@ -1,6 +1,25 @@
-_site
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS
 .DS_Store
+
+# editors
 *.swp
-.sass-cache
-Gemfile.lock
-.jekyll-cache
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/

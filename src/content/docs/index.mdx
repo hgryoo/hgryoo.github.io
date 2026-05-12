@@ -1,0 +1,48 @@
+---
+title: hgryoo
+description: Hyung-Gyu Ryoo — talks, notes, and code analysis on DBMS internals.
+template: splash
+hero:
+  title: Hyung-Gyu Ryoo
+  tagline: Research engineer at CUBRID. I read storage engines line by line and write down what I find — concurrency control, MVCC, recovery, and the systems-software layer around them.
+  image:
+    file: ../../assets/logo.png
+  actions:
+    - text: About
+      link: /about/
+      icon: right-arrow
+      variant: primary
+    - text: Talks & Slides ↗
+      link: https://hgryoo.dev/knowledge-slides-site/
+      icon: external
+      variant: secondary
+    - text: Notes & Analyses ↗
+      link: https://hgryoo.dev/knowledge-docs-site/
+      icon: external
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Talks & Slides" icon="document">
+    Conference talks and seminars on DBMS internals, 3D GIS, and the systems-software layer in between.
+
+    [Browse decks →](https://hgryoo.dev/knowledge-slides-site/)
+  </Card>
+  <Card title="Notes & Analyses" icon="open-book">
+    Long-form code analyses on CUBRID's storage engine — lock manager, MVCC, recovery, page buffer, and the rest.
+
+    [Read on the docs site →](https://hgryoo.dev/knowledge-docs-site/)
+  </Card>
+  <Card title="Open-source" icon="github">
+    3D extensions for GeoServer / GeoTools, SFCGAL4J, IndoorGML tooling, and other things that ended up on GitHub.
+
+    [github.com/hgryoo →](https://github.com/hgryoo)
+  </Card>
+  <Card title="About" icon="information">
+    A short bio, what I work on, and how to get in touch.
+
+    [About this site →](/about/)
+  </Card>
+</CardGrid>

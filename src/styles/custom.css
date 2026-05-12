@@ -1,0 +1,105 @@
+/* Carry the old hgryoo.github.io look forward onto Starlight:
+ *   - Nanum Gothic body (via Google Fonts, not the bundled .woff files)
+ *   - #02547D accent (the navy-teal from the old _variables.scss)
+ *   - cool neutral grays matching the JustGoodThemes "Horace" palette
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --sl-font:
+    'Nanum Gothic', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Noto Sans KR', system-ui, sans-serif;
+  --sl-font-mono:
+    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Old Horace theme ran at a wider content width than Starlight default. */
+  --sl-content-width: 56rem;
+}
+
+/* Dark mode (Starlight default). #02547D is bright enough on dark to use directly. */
+:root,
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #0a2a3d;
+  --sl-color-accent: #4a9ec7;
+  --sl-color-accent-high: #b8dcef;
+
+  --sl-color-white: #f9f9fb;
+  --sl-color-gray-1: #e5e7e9;
+  --sl-color-gray-2: #a1a1a7;
+  --sl-color-gray-3: #7a7a80;
+  --sl-color-gray-4: #535358;
+  --sl-color-gray-5: #3a3b41;
+  --sl-color-gray-6: #2f313d;
+  --sl-color-gray-7: #1a1b22;
+  --sl-color-black: #0f0f15;
+
+  --sl-color-bg: #0f0f15;
+  --sl-color-bg-nav: #0f0f1500;
+  --sl-color-bg-sidebar: #0f0f1500;
+  --sl-color-bg-inline-code: #2f313d;
+}
+
+/* Light mode — true to the old site, which was light by default. */
+:root[data-theme='light'] {
+  --sl-color-accent-low: #d6e8f1;
+  --sl-color-accent: #02547D;
+  --sl-color-accent-high: #013a57;
+
+  --sl-color-white: #1a1b22;
+  --sl-color-gray-1: #2f313d;
+  --sl-color-gray-2: #535358;
+  --sl-color-gray-3: #7a7a80;
+  --sl-color-gray-4: #a1a1a7;
+  --sl-color-gray-5: #d8d8d8;
+  --sl-color-gray-6: #e5e7e9;
+  --sl-color-gray-7: #f9f9fb;
+  --sl-color-black: #ffffff;
+
+  --sl-color-bg: #ffffff;
+  --sl-color-bg-nav: #ffffff00;
+  --sl-color-bg-sidebar: #ffffff00;
+  --sl-color-bg-inline-code: #f1f3f5;
+}
+
+/* Body / prose tuning to match the old Horace feel. */
+.sl-markdown-content {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.sl-markdown-content :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--sl-font);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.sl-markdown-content h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.sl-markdown-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2.4rem;
+}
+
+.sl-markdown-content h3 {
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+/* Splash hero — slightly more presence than Starlight default. */
+.hero h1 {
+  font-family: var(--sl-font);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero .tagline {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--sl-color-gray-2);
+  max-width: 56ch;
+}
