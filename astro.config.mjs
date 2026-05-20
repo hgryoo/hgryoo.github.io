@@ -6,6 +6,25 @@ import starlight from '@astrojs/starlight';
 //   hgryoo.dev/knowledge-docs-site/   ← long-form code analysis docs
 //   hgryoo.dev/knowledge-slides-site/ ← talk decks (Marp HTML/PDF)
 const siteUrl = process.env.SITE_URL || 'https://hgryoo.dev';
+const isProd = process.env.NODE_ENV === 'production';
+const gaHead = isProd
+  ? [
+      {
+        tag: 'script',
+        attrs: {
+          async: true,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-MLFTZW11Q0',
+        },
+      },
+      {
+        tag: 'script',
+        content: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-MLFTZW11Q0');`,
+      },
+    ]
+  : [];
 
 export default defineConfig({
   site: siteUrl,
@@ -38,6 +57,7 @@ export default defineConfig({
       ],
       customCss: ['./src/styles/custom.css'],
       favicon: '/images/favicon/favicon-32x32.png',
+      head: gaHead,
     }),
   ],
 });
