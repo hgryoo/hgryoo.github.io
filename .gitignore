@@ -23,3 +23,5 @@ yarn-error.log*
 !.vscode/extensions.json
 !.vscode/launch.json
 .idea/
+
+.omc
